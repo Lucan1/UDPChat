@@ -12,3 +12,10 @@ C:\Users\User\Desktop\Serv\Server\Server\obj\Debug\Server.csprojAssemblyReferenc
 C:\Users\User\Desktop\Serv\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Serv\Server\Server\obj\Debug\Server.exe
 C:\Users\User\Desktop\Serv\Server\Server\obj\Debug\Server.pdb
+C:\Users\User\Desktop\UDPChat\Server\Server\bin\Debug\Server.exe.config
+C:\Users\User\Desktop\UDPChat\Server\Server\bin\Debug\Server.exe
+C:\Users\User\Desktop\UDPChat\Server\Server\bin\Debug\Server.pdb
+C:\Users\User\Desktop\UDPChat\Server\Server\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\User\Desktop\UDPChat\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\UDPChat\Server\Server\obj\Debug\Server.exe
+C:\Users\User\Desktop\UDPChat\Server\Server\obj\Debug\Server.pdb

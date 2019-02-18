@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Server
+namespace UDPClient
 {
     enum Command
     {
-        Login,      
-        Logout,    
-        Message,   
-        List,      
+        Login,
+        Logout,
+        Message,
+        List,
         Static,
         Package,
         LocalMessage,
@@ -18,7 +18,6 @@ namespace Server
 
     class Data
     {
-
         public string strName;
         public string strMessage;
         public Command cmdCommand;
@@ -33,9 +32,7 @@ namespace Server
         public Data(byte[] data)
         {
             this.cmdCommand = (Command)BitConverter.ToInt32(data, 0);
-
             int nameLen = BitConverter.ToInt32(data, 4);
-
             int msgLen = BitConverter.ToInt32(data, 8);
 
             if (nameLen > 0)
@@ -52,7 +49,6 @@ namespace Server
         public byte[] ToByte()
         {
             List<byte> result = new List<byte>();
-
             result.AddRange(BitConverter.GetBytes((int)cmdCommand));
 
             if (strName != null)
@@ -73,5 +69,7 @@ namespace Server
 
             return result.ToArray();
         }
+
+
     }
 }
