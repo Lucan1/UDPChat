@@ -72,11 +72,11 @@ namespace UDPClient
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Вы уверены что хотите выйти?", "UDPClient: " + strName, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+            /*if (MessageBox.Show("Вы уверены что хотите выйти?", "UDPClient: " + strName, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
             {
                 Application.Exit();
                 return;
-            }
+            }*/
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)
@@ -127,7 +127,8 @@ namespace UDPClient
             {
                 EndPoint remoteIp = new IPEndPoint(IPAddress.Any, 1000);
                 int bytes = 0; 
-                byte[] data = new byte[1024]; 
+                byte[] data = new byte[1024];
+                listBox1.Items.Clear();
 
                 do
                 {
@@ -135,7 +136,7 @@ namespace UDPClient
                     string tmp = Encoding.Unicode.GetString(data, 0, bytes);
                     Data msgReceived = new Data(data);
                     address = msgReceived.strName;
-                    NumOfPep = msgReceived.strMessage;               
+                    NumOfPep = msgReceived.strMessage;                    
                     listBox1.Items.Add("Server " + address + ":1000 " + NumOfPep + "/32");
 
                 } while (StaticSocketClient.Available > 0);
@@ -203,11 +204,11 @@ namespace UDPClient
 
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Вы уверены что хотите выйти?", "UDPClient: " + strName, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+           /* if (MessageBox.Show("Вы уверены что хотите выйти?", "UDPClient: " + strName, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
             {
                 Application.Exit();
                 return;
-            }
+            }*/
         }
     }
 }

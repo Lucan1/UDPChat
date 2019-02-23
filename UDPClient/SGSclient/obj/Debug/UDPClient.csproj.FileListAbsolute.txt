@@ -19,3 +19,14 @@ C:\Users\User\Desktop\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.csproj.Gen
 C:\Users\User\Desktop\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.exe
 C:\Users\User\Desktop\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.pdb
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\bin\Debug\UDPClient.exe.config
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\bin\Debug\UDPClient.exe
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\bin\Debug\UDPClient.pdb
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.UDPClient.resources
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.LoginForm.resources
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.Properties.Resources.resources
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.exe
+C:\Users\User\Desktop\Radiy\UDPChat\UDPClient\SGSclient\obj\Debug\UDPClient.pdb

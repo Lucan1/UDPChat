@@ -169,12 +169,12 @@ namespace UDPClient
 
         private void UDPClient_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Вы уверены что хотите выйти?", "UDPClient: " + strName, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+           /* if (MessageBox.Show("Вы уверены что хотите выйти?", "UDPClient: " + strName, MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
             {
                 Application.Exit();
                 timer1.Enabled = false;
                 return;
-            }
+            }*/
 
             try
             {
@@ -228,7 +228,7 @@ namespace UDPClient
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message + "423423");
             }
       
         }
