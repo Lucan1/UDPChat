@@ -12,7 +12,7 @@ namespace Server
 {
     class Server
     {
-        struct ClientInfo
+        public struct ClientInfo 
         {
             public EndPoint endpoint;  
             public string strName;      
@@ -80,10 +80,11 @@ namespace Server
                             break;
 
                         case Command.Logout:
+                       
                             int nIndex = 0;
                             foreach (ClientInfo client in clientList)
                             {
-                                if (client.endpoint == remoteIp)
+                                if (client.endpoint.Equals(remoteIp))
                                 {
                                     clientList.RemoveAt(nIndex);
                                     break;
